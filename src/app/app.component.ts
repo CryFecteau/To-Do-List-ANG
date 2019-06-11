@@ -21,10 +21,13 @@ export class AppComponent {
     new Task("Figure it all out", new Date(2020,0,1),1)
   ]
   
-  selectedTask: Task = this.tasks[0];
+  selectedTask: Task = null;
 
   selectTask(task){
     this.selectedTask = task;
+  }
+  finishedEditing() {
+    this.selectedTask = null;
   }
 }
 
