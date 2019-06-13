@@ -10,7 +10,7 @@ export class TaskListComponent {
   @Input() childTaskList: Task[];
   @Output() clickSender = new EventEmitter();
 
-  
+
 
   editSelectTask(taskToEdit: Task){
     this.clickSender.emit(taskToEdit);
@@ -20,9 +20,13 @@ export class TaskListComponent {
   ngOnInit() {
   }
 
-  
-  
-  
+  filterByCompleteness: string = "incompleteTasks";
 
+   onChange(optionFromMenu) {
+     this.filterByCompleteness = optionFromMenu;
+   }
+   toggleDone(clickedTask: Task, setCompleteness: boolean)  {
+     clickedTask.done = setCompleteness;
+   }
 
 }
