@@ -1,0 +1,48 @@
+[debug] [2019-06-13T21:08:19.865Z] ----------------------------------------------------------------------
+[debug] [2019-06-13T21:08:19.867Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-06-13T21:08:19.867Z] CLI Version:   7.0.0
+[debug] [2019-06-13T21:08:19.867Z] Platform:      darwin
+[debug] [2019-06-13T21:08:19.867Z] Node Version:  v8.12.0
+[debug] [2019-06-13T21:08:19.867Z] Time:          Thu Jun 13 2019 14:08:19 GMT-0700 (PDT)
+[debug] [2019-06-13T21:08:19.867Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-13T21:08:19.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-13T21:08:19.874Z] > authorizing via signed-in user
+[debug] [2019-06-13T21:08:19.874Z] [iam] checking project todolistone for permissions ["firebase.projects.get"]
+[debug] [2019-06-13T21:08:19.875Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/todolistone:testIamPermissions  
+
+[debug] [2019-06-13T21:08:20.024Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-13T21:08:20.025Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todolistone  
+ 
+[debug] [2019-06-13T21:08:20.192Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-13T21:08:20.302Z] TypeError: prompt.once is not a function
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/open.js:69:14)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:163:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-06-13T21:09:21.835Z] ----------------------------------------------------------------------
+[debug] [2019-06-13T21:09:21.836Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-06-13T21:09:21.837Z] CLI Version:   7.0.0
+[debug] [2019-06-13T21:09:21.837Z] Platform:      darwin
+[debug] [2019-06-13T21:09:21.837Z] Node Version:  v8.12.0
+[debug] [2019-06-13T21:09:21.837Z] Time:          Thu Jun 13 2019 14:09:21 GMT-0700 (PDT)
+[debug] [2019-06-13T21:09:21.837Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-13T21:09:21.843Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-13T21:09:21.843Z] > authorizing via signed-in user
+[debug] [2019-06-13T21:09:21.843Z] [iam] checking project todolistone for permissions ["firebase.projects.get"]
+[debug] [2019-06-13T21:09:21.845Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/todolistone:testIamPermissions  
+
+[debug] [2019-06-13T21:09:22.057Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-13T21:09:22.058Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todolistone  
+ 
+[debug] [2019-06-13T21:09:22.233Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-13T21:09:22.451Z] TypeError: prompt.once is not a function
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/open.js:69:14)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:163:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.
