@@ -1,0 +1,3 @@
+<ul>
+  <li  [class]="currentTask.setColor()" *ngFor="let currentTask of childTaskList">{{currentTask.description}} (due: {{currentTask.dueDate.toString()}}) <button (click)="editSelectTask(currentTask)">Edit</button></li>
+</ul>
